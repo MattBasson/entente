@@ -6,6 +6,7 @@ import { MfeFragmentComponent } from './mfe-fragment/mfe-fragment.component';
 
 export const remoteRoutes: Route[] = [
   { path: '', component: MfeHomeComponent },
+  { path: 'frag', component: MfeFragmentComponent },
 ];
 
 @NgModule({

@@ -13,6 +13,7 @@ const parseConfig = async (mfManifest: Promise<Response>) => {
       filterManifest[key] = value;
     }
   }
+  console.debug('manifest key', filterManifest);
   return filterManifest;
 };
 

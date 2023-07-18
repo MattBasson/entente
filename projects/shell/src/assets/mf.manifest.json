@@ -15,6 +15,18 @@
     "exposedModule": "./MfeFragmentComponent",
     "componentName": "MfeFragmentComponent",
     "viaRoute": false,
-    "withInPage": true
+    "routePath": "mfe1",
+    "withInPage": true,
+    "displayName": "RemoteMfeFragment"
+   },
+   "mfe2-dropdown": {
+    "isActive": true,
+    "remoteEntry": "http://localhost:4202/remoteEntry.js",
+    "exposedModule": "./DropdownComponent",
+    "componentName": "DropdownFragmentComponent",
+    "viaRoute": false,
+    "routePath": "mfe2",
+    "withInPage": true,
+    "displayName": "DropdownFragmentComponent"
    }
  }

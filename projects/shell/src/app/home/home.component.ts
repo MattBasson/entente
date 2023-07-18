@@ -13,6 +13,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     const manifest = getManifest<CustomManifest>();
 
+    console.debug('!MANIFEST!:', manifest);
      // filter remote mfe's which needs to loaded inside page (not via route)
      this.options = Object.values(manifest).filter(
       (v) => v.withInPage === true
