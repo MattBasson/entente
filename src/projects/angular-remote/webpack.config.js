@@ -33,6 +33,7 @@ module.exports = {
         filename: "remoteEntry.js",
         exposes: {
             './HeaderComponent': './src/app/components/header/header.component.ts',
+            './FooterComponent': './src/app/components/footer/footer.component.ts',
         },
         shared: share({
           "@angular/core": { singleton: true, strictVersion: true, requiredVersion: 'auto' },

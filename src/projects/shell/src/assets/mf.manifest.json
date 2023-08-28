@@ -5,5 +5,12 @@
     "exposedModule": "./HeaderComponent",
     "componentName": "HeaderComponent",
     "displayName": "Header MFE"
+   },
+   "footer": {
+    "isActive": true,
+    "remoteEntry": "http://localhost:4201/remoteEntry.js",
+    "exposedModule": "./FooterComponent",
+    "componentName": "FooterComponent",
+    "displayName": "Footer MFE"
    }
 }
